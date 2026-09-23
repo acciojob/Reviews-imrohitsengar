@@ -65,6 +65,7 @@ function App() {
           Next
         </button>
         <button
+          className="random-btn"
           onClick={() => setIndex(Math.floor(Math.random() * review.length))}
         >
           Random
